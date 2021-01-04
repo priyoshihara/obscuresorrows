@@ -12,28 +12,16 @@ $('#videoarea').attr("src",curUrl)
 });
 });
 
+//https://stackoverflow.com/questions/26122115/detect-any-user-interaction
+//Audio
+
 document.addEventListener('click', musicPlay);
 function musicPlay() {
     document.getElementById('playAudio').play();
     document.removeEventListener('click', musicPlay);
 }
 
-
-//audio
-/*
-var audio = new Audio(assets/Venkatesananda.mp3);
-
-audio.oncanplaythrough = function(){
-audio.play();
-}
-
-audio.loop = true;
-
-audio.onended = function(){
-audio.play();
-}
-
-
+document.getElementById("playAudio").volume = 0.5;
 
 
 /*
