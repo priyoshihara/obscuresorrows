@@ -1,5 +1,3 @@
-console.log("hello");
-
 
 //http://jsfiddle.net/Jzs6B/2082/
 

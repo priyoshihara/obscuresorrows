@@ -11,7 +11,7 @@
 
 .blog-header-logo {
   font-family: "Lora", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #playlist li:hover{
-    color:blue;
+    color: #ff788f;
 }
 #videoarea {
     float:left;
@@ -129,4 +129,18 @@ h1, h2, h3, h4, h5, h6 {
     height:auto;
     margin:10px;
 
+}
+
+/*
+logo
+*/
+.density-logo {
+    width: calc(var(--grid-column-unit) * 2);
+    align-self: flex-start;
+    margin-top: 0.4rem;
+}
+
+@media (min-width: 835px)
+.density-logo {
+    width: calc(var(--grid-column-unit) * 0.5);
 }
