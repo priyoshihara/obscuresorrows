@@ -134,11 +134,21 @@ h1, h2, h3, h4, h5, h6 {
 /*
 logo
 */
-.density-logo {
+.footer-logo {
     width: calc(var(--grid-column-unit) * 2);
     align-self: flex-start;
-    margin-top: 0.4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: inline-block;
+    vertical-align: middle;
 }
+
+
+.vl {
+  border-left: 1.6px solid #212529;
+  height: 60px;
+}
+
 
 @media (min-width: 835px)
 .density-logo {
