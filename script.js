@@ -19,7 +19,7 @@ function musicPlay() {
     document.removeEventListener('click', musicPlay);
 }
 
-document.getElementById("playAudio").volume = 0.4;
+document.getElementById("playAudio").volume = 0.3;
 
 
 /*
